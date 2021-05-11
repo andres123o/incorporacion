@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="/icons8-room-service-30.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Anfitrion</title>
+</head>
+<body class="body-anfitrion">
+    <header class="header">
+        <div class="container-link-anfitrion">
+            <a href="/index.html">Mi Mundo</a>
+            <a href="/anfitrion.html">Ser Anfitrión</a>
+            <a href="/contactanos.html">Contactanos</a>
+        </div>
+    </header>
+    <main class="main-container-anfitrion">
+        <div class="container-personal-info container-info" id="containerInfo">
+            <p id="persona">Un gusto conocerte.</p>
+            <div class="container-form">
+                <form class="container-input" id="container-input">
+                    <input type="text" placeholder="Primer nombre" class="container-user" id="firstName">
+                    <input type="text" placeholder="Apellidos" class="container-user" id="LastName">
+                    <input type="text" placeholder="Correo electronico" class="container-user" id="email">
+                    <input type="text" placeholder="Numero de Celular" class="container-user" id="numeroCelular"> 
+                    <button type="button" onclick="datos()" name="enviarInfo" class="container-submit" id="validarInfo">Enviar</button>     
+                </form>
+            <div class="container-prueba">
+                <input type="text" name="pais" placeholder="País" id="pais" class="container-user">
+                <input type="text" name="departamento" placeholder="Departamento" id="departamento" class="container-user">
+                <input type="text" name="Municipio" id="municipio" placeholder="Municipio o localización" class="container-user">
+                <input type="text" name="direccion" id="direccion" placeholder="Dirección" class="container-user">
+                <select name="contaoner-establecimiento" id="container-establecimiento"  class="container-user">
+                    <option>Seleciona un establecimiento</option>
+                    <option value="Hotel">Hotel</option>
+                    <option value="Cabaña">Cabaña</option>
+                    <option value="Complejo">Complejo</option>
+                    <option value="Restaurante">Restaurante</option>
+                </select>
+            </div>
+            <div class="container-prueba2">
+                <input type="text" name="nombreEstablecimiento" id="nombreEstablecimiento" placeholder="Nombre del Establecimiento" class="container-user">
+                <h4 class="container-user">Ingresa logo</h4>
+                <input type="file" name="logo" id="logo" placeholder="Ingrese Logo" class="container-user">
+                <button type="button" onclick="datosSecundarios()" name="enviarInfo" class="container-submit" id="validarInfo2">Enviar</button>
+            </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-footer-anfitrion">
+        <div class="container-terms">
+            <a href="/">Terminos y condiciones</a>
+        </div>
+        <div class="container-terms">
+            <a href="/">Politicas de privacidad</a>
+        </div>
+    </footer>
+    <script src="/anfitrion.js"></script>
+</body>
+</html>
+
+
